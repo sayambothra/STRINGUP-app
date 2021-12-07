@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">STRING-UP</string>
+<!--        -->
+    <string-array name="bString">
+        <item>SELECT STRING</item>
+        <item>Yonex BG-65</item>
+        <item>Yonex BG-65 Titanium</item>
+        <item>Yonex BG-66</item>
+        <item>Yonex AeroBite</item>
+        <item>Yonex Aerosonic</item>
+        <item>Lining N0.7</item>
+        <item>Lining N0.1</item>
+        <item>Lining AP-70</item>
+    </string-array>
+    <string-array name="bCover">
+        <item>Yes</item>
+        <item>No</item>
+
+    </string-array>
+    <string-array name="bTension">
+        <item>SELECT STRING TENSION</item>
+        <item>22LBS</item>
+        <item>23LBS</item>
+        <item>24LBS</item>
+        <item>25LBS</item>
+        <item>26LBS</item>
+        <item>27LBS</item>
+        <item>28LBS</item>
+        <item>29LBS</item>
+        <item>30LBS</item>
+        <item>31LBS</item>
+        <item>32LBS</item>
+        <item>33LBS</item>
+        <item>34LBS</item>
+
+    </string-array>
+    <string-array name="tString">
+        <item>SELECT STRING</item>
+        <item>MaxxBolt-MaxBite PowerSpin</item>
+        <item>Babolat RPM-blast</item>
+        <item>Babolat RPM-Rough</item>
+        <item>Solinco Hyper-G</item>
+        <item>Solinco Tour-Bite</item>
+
+    </string-array>
+    <string-array name="tCover">
+        <item>Yes</item>
+        <item>No</item>
+
+    </string-array>
+    <string-array name="tTension">
+        <item>SELECT STRING TENSION</item>
+        <item>55LBS</item>
+        <item>56LBS</item>
+        <item>57LBS</item>
+        <item>58LBS</item>
+        <item>59LBS</item>
+        <item>60LBS</item>
+        <item>61LBS</item>
+        <item>62LBS</item>
+        <item>63LBS</item>
+        <item>64LBS</item>
+        <item>65LBS</item>
+        <item>66LBS</item>
+        <item>67LBS</item>
+
+    </string-array>
+    <string-array name="sString">
+        <item>SELECT STRING</item>
+        <item>MaxxBolt-MaxBite Power-Spin</item>
+        <item>Babolat RPM-blast</item>
+        <item>Babolat RPM-Rough</item>
+        <item>Solinco Hyper-G</item>
+        <item>Solinco Tour-Bite</item>
+
+    </string-array>
+    <string-array name="sCover">
+        <item>Yes</item>
+        <item>No</item>
+
+    </string-array>
+    <string-array name="sTension">
+        <item>SELECT STRING TENSION</item>
+        <item>23LBS</item>
+        <item>24LBS</item>
+        <item>25LBS</item>
+        <item>26LBS</item>
+        <item>27LBS</item>
+        <item>28LBS</item>
+        <item>29LBS</item>
+        <item>30LBS</item>
+        <item>31LBS</item>
+        <item>32LBS</item>
+        <item>33LBS</item>
+        <item>34LBS</item>
+
+    </string-array>
+
+
+</resources>
