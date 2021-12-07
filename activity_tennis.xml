@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RacquetsSpecs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/rDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Racquet DETails"
+        android:textSize="38dp"
+        android:textAllCaps="true"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/Brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Racquet Brand"
+        android:textSize="18dp"
+        android:textAllCaps="true"
+        android:layout_marginBottom="7dp"/>
+    <EditText
+        android:id="@+id/tBrand"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_text_border"
+        android:layout_marginBottom="12dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Racquet Model"
+        android:textAllCaps="true"
+        android:textSize="18dp"
+        android:layout_marginBottom="7dp"/>
+    <EditText
+        android:id="@+id/tModel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_text_border"
+        android:layout_marginBottom="12dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STRING TYPE"
+        android:layout_marginBottom="4dp"
+        android:textAllCaps="true"
+        android:textSize="18dp"/>
+    <Spinner
+        android:id="@+id/tString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STRING TENSION"
+        android:textAllCaps="true"
+        android:textSize="18dp"
+        android:layout_marginBottom="7dp"/>
+    <Spinner
+        android:id="@+id/tTension"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Racquet Cover"
+        android:textAllCaps="true"
+        android:textSize="18dp"
+        android:layout_marginBottom="7dp"/>
+    <Spinner
+        android:id="@+id/tCover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
