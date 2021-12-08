@@ -37,7 +37,9 @@
                         />
 
                     <TextView
+                        android:id="@+id/racquet_brand"
                         android:text=""
+
                         android:layout_height="wrap_content"
                         android:layout_weight="1" android:background="@drawable/edit_text_borders"
                         android:textColor="#000000"
@@ -63,6 +65,7 @@
                         />
 
                     <TextView
+                        android:id="@+id/racquet_model"
                         android:text=""
                         android:layout_height="wrap_content"
                         android:layout_weight="1" android:background="@drawable/edit_text_borders"
@@ -90,6 +93,7 @@
                         />
 
                     <TextView
+                        android:id="@+id/string_type"
                         android:text=""
                         android:layout_height="wrap_content"
                         android:layout_weight="1" android:background="@drawable/edit_text_borders"
@@ -116,6 +120,7 @@
                         />
 
                     <TextView
+                        android:id="@+id/string_tension"
                         android:text=""
                         android:layout_height="wrap_content"
                         android:layout_weight="1" android:background="@drawable/edit_text_borders"
