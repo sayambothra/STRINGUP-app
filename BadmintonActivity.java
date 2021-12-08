@@ -1,13 +1,15 @@
-package com.example.string_up;
+package com.abdul.stringup_2o;
 
-import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
+
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -20,7 +22,7 @@ public class BadmintonActivity extends AppCompatActivity implements AdapterView.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.android_badminton);
+        setContentView(R.layout.activity_badminton);
         //Getting the instance of Spinner and applying OnItemSelectedListener on it
         Spinner spin = (Spinner) findViewById(R.id.bString);
         spin.setOnItemSelectedListener(this);
@@ -70,9 +72,46 @@ public class BadmintonActivity extends AppCompatActivity implements AdapterView.
 
         return super.onOptionsItemSelected(item);
     }
-    public void openBRdetails(View view) {
-        Intent i = new Intent(this, BRdetailsActivity.class);
-        startActivity(i);
+
+   public void brDetails(View view) {
+////        Intent intent=new Intent(this,BRdetailsActivity.class);
+////        startActivity(intent);
+    EditText bbrand = findViewById(R.id.bBrand);
+    EditText bmodel = findViewById(R.id.bModel);
+    Spinner btype = findViewById(R.id.bString);
+    Spinner btension = findViewById(R.id.bTension);
+    Spinner bcover = findViewById(R.id.bCover);
+    String name = bbrand.getText().toString();
+    String model = bmodel.getText().toString();
+
+    String type = btype.getSelectedItem().toString();
+    String tension = btension.getSelectedItem().toString();
+    String cover = bcover.getSelectedItem().toString();
+
+            Toast.makeText(getApplicationContext(), name + " " + model + " " + type + " " + tension + " " + cover, Toast.LENGTH_LONG).show();
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
-}
+
+
+
+
+
 
